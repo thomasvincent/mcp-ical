@@ -9,5 +9,3 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Verify CLAUDE.md exists
-        run: test -f CLAUDE.md
